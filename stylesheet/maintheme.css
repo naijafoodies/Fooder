@@ -1,0 +1,71 @@
+/*body{
+  background: url(mainbackground2.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
+
+#homePage 
+{
+    background: url(mainbackground2.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+@media only screen and (max-device-width: 480px) {
+    .mobileMenu {
+      display:block;
+    }
+
+    .footer {
+      font-size: 7px;
+    }
+
+    .developer {
+      display:none;
+    }
+	}
+
+  .errorField {
+    border: 1px solid red;
+    border-width: thin;
+  }
+
+  .specialContent
+  {
+    margin-left:10px;
+    padding:2em;
+    font-size: 16px;
+    border: 2px dashed #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 0 4px #ff0030, 2px 1px 1px 4px rgba(10, 10, 0, 0.5);
+    font-weight: normal;
+  }
+
+  .carousel {
+    height: 50%;
+}
+
+.item,
+.active,
+.carousel-inner {
+    height: 100%;
+}
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+

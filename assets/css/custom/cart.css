@@ -1,0 +1,21 @@
+#content-grid {
+
+    margin-top: 20px;
+}
+
+.delete-item {
+    color: #ce120a !important;
+}
+.nf-remove-cart-item {
+    color: #ce120a;
+}
+
+.nf-important-cart {
+
+    color: #ce120a;
+    font-size: 10px;
+    font-weight: 200;
+}
+body{
+    padding-top:100px;
+}
