@@ -1,0 +1,28 @@
+
+
+.menu-grid {
+    margin-top:40px;
+    margin-bottom: 40px;
+}
+
+.w3-myfont {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#menu-container {
+
+    padding: 20px;
+    display: inline-block;
+}
+
+.card-img-top {
+    width: 100%;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+    max-height: 250px;
+    height: 250px;
+}
+
+.page-content {
+    margin-top: 80px;
+}

@@ -1,0 +1,94 @@
+/**
+Style sheet for food description
+ */
+
+.describe-images {
+
+    max-height: 400px;
+    width: 100%;
+    padding : 0.5em;
+}
+
+.container-content {
+
+    margin-top:20px;
+}
+
+#describe-food-header {
+
+    background-color: rgb(188, 183, 183);
+    box-shadow: 10px 10px 5px #888888;
+}
+
+#describe-content {
+
+    text-align: left !important;
+    background-color: floralwhite;
+}
+
+.describe-label {
+
+    font-size: 20px;
+    font-weight: 500 !important;
+}
+
+.describe-menu-header {
+    font-weight: 700;
+}
+
+.ui.fluid.dropdown {
+    display: block;
+    width: 100%;
+    min-width: 0;
+    color: #4cae4c;
+    border-radius: 2em;
+}
+
+.ui.form input:not([type]), .ui.form input[type=text], .ui.form input[type=email], .ui.form input[type=search], .ui.form input[type=password], .ui.form input[type=date], .ui.form input[type=datetime-local], .ui.form input[type=tel], .ui.form input[type=time], .ui.form input[type=file], .ui.form input[type=url], .ui.form input[type=number] {
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    margin: 0;
+    outline: 0;
+    -webkit-appearance: none;
+    tap-highlight-color: rgba(255,255,255,0);
+    line-height: 1.21428571em;
+    padding: .67857143em 1em;
+    font-size: 1em;
+    background: #FFF;
+    border: 1px solid rgba(34,36,38,.15);
+    color: rgba(0,0,0,.87);
+    border-radius: 2em;
+    box-shadow: 0 0 0 0 transparent inset;
+    -webkit-transition: color .1s ease,border-color .1s ease;
+    transition: color .1s ease,border-color .1s ease;
+}
+
+
+.owl-carousel .owl-item img {
+    display: block;
+    width: 100%;
+    height: 150px;
+    cursor: pointer;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, menu, section, summary {
+    display: block;
+    color: #f2fdef;
+    background: #4e4a4a;
+    font-weight: 500;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    font-weight: 600;
+}
+
+.list-title {
+    font-weight: 600;
+}
+
+.page-content {
+
+    margin-top: 100px;
+
+}
